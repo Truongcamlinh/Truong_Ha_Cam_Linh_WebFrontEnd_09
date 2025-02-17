@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+.container .child {
+    background-color: violet;
+    width: calc(16.66% - 10px);
+    padding: 50px;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
